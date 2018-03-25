@@ -14,7 +14,7 @@
       "bundleIdentifier": "org.udacifitness.exp.trebert"
     },
     "android": {
-      "package": "org.udacifitness.exp,trebert"
+      "package": "org.udacifitness.exp.trebert"
     }
   }
 }

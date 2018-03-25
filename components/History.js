@@ -18,6 +18,7 @@ class History extends Component {
     }
 
     componentDidMount() {
+        
         const { dispatch } = this.props
 
         fetchCalendarResults()
@@ -65,7 +66,7 @@ class History extends Component {
         const { ready } = this.state
 
         if(ready === false) {
-                return <AppLoading/>
+            return <AppLoading/>
         }
 
         return (
